@@ -9,10 +9,17 @@
     "email": "hughskennedy@gmail.com",
     "url": "https://github.com/hughsk"
   },
-  "dependencies": {},
-  "devDependencies": {},
+  "dependencies": {
+    "crc-32": "^0.3.0",
+    "sliced": "^1.0.1"
+  },
+  "devDependencies": {
+    "png-chunks-extract": "^1.0.0",
+    "tap-spec": "^4.1.0",
+    "tape": "^4.2.0"
+  },
   "scripts": {
-    "test": "node test.js"
+    "test": "node test | tap-spec"
   },
   "keywords": [
     "png,",
